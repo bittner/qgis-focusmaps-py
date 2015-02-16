@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Focus Map Help Document</title>
+</head>
+
+<body>
+
+  <h1>FocusMap Help </h1>
+  <p>This document gives you a brief introduction of plugin Normalization. Here is the Normalization interface:</p>
+  <img src="focus.png" alt="Normalization" >
+
+  <h4>Raster Layers: </h4>
+  <p>Raster Layer combobox provides all the raster layers from QGis layers, from where users can choose anyone need to be normalised.  </p>
+  <h4>Chosen Layers: </h4>
+  <p>Chosen Layer combobox shows all the layers that users chose from Raster Layers for focus map. At most 6 layers can be chosen.  </p>
+  <h4>Weight: </h4>
+  <p>Users can set weights for different layers for focus calculation.  </p>  
+
+  <h4>Pooling Methods: </h4>
+  <p>Users can choose different pooling methods for focus calculation, here two methods are provided: Linear and LogLinear. </p>
+  <h4>Match Resolution: </h4>
+  <p>If images have different resolutions, resampling is necessary. Users can choose the highest or lowest resolution as target, also can choose any layer from chosen layers and use its resolution as target resolution. </p>
+  
+  <h4>Output Image: </h4>
+  <p>Users choose the image storage path and give the new normalized image a name.  </p>
+  <h4>Add to Canvas: </h4>
+  <p>When add to canvas is checked, the mormalized image will be automatically added to QGis layers.  </p>
+  <h4>Help Button: </h4>
+  <p>Show users the help document on click.  </p>
+
+  <br />
+  <p style="font-style:oblique">For more information, please check the <a href="http://www.sensum-project.eu/" target="_blank">SENSUM PROJECT</a> ! </p>
+  <br />
+  <br />
+
+  <footer style="text-align:right; font-style:oblique; color:blue; font-size:80%">
+   <p>Copyright Dec.2014, Ying Wang from GFZ (visit <a href="http://www.gfz-potsdam.de/startseite/" target="_blank">GFZ</a>) </p>
+  </footer> 
+</body>
+
+</html> 
+

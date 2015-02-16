@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/FocusMap" >
+        <file>icons/focus.PNG</file>
+    </qresource>
+</RCC>

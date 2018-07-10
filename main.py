@@ -54,7 +54,7 @@ class Main:
     def initGui(self):
         self.toolBar = self.iface.addToolBar("FocusMap")
         # Create action that will start plugin configuration
-        self.action_focus = QAction(QIcon(":/plugins/FocusMap/icons/focus.PNG"), "Focus", self.iface.mainWindow())
+        self.action_focus = QAction(QIcon(":/plugins/FocusMap/icons/focus.png"), "Focus", self.iface.mainWindow())
         # Connect the action to the run method
         self.action_focus.triggered.connect(self.focus)
         # Add toolbar button and menu item

@@ -29,7 +29,7 @@ tags=
 homepage=
 tracker=
 repository=
-icon=focus.PNG
+icon=focus.png
 # experimental flag
 experimental=False
 
